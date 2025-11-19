@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+
+# Artifacts / Models
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Data (keep repo clean)
+data/
+ml-100k/
+ml_small_prepared/
+*.npy
+*.csv
+
+# FAISS / cache (if any)
+*.index
